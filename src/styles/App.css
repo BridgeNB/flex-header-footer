@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/****** Header ********/
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  left:0px;
+  margin: 10px;
+
+  border-bottom: 1px solid #000000;
+}
+
+.header-nav div {
+  margin-bottom: 10px;
+}
+
+.header-logo-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 0 0 60%;
+}
+
+.nav-items div {
+  margin: 0 20px;
+}
+
+.header-logo-name a {
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+}
+
+.nav-items a{
+  text-decoration: none;
+  color: black;
+  font-family: "Arial";
+  font-size: 2em;
+}
+
+.nav-items div.active a{
+  color: #c66568;
+}
+
+/****** Footer ********/
+
+.leonis-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  left: 0px;
+  margin: 10px;
+
+  border-top: 1px solid #000000;
+}
+
+.leonis-footer div {
+  margin-top: 10px;
+}
+
+.leonis-footer a{
+  text-decoration: none;
+  color: black;
+  font-family: "Arial";
+  font-size: 2em;
+}
+
+.social-icons-list li {
+  list-style: none;
+  display: inline;
+  margin: 0 10px;
+}
