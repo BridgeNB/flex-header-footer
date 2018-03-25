@@ -6,7 +6,7 @@ const HeaderNav = ({location}) => {
   return (<div className="header-nav">
     <div className="header-logo-name">
       <Link to="/" title={'Home'}>
-        LOGO + Leonis Venture
+        LOGO + Company Name
       </Link>
     </div>
     <div className="nav-items">

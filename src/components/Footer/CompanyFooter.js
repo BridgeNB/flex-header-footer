@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const LeonisFooter = (() => {
+const CompanyFooter = (() => {
   return (<div className="leonis-footer">
     <div className="footer-logo-name">
       <Link to="/" title={'Home'}>
-        LOGO + Leonis Venture
+        LOGO + Company Name
       </Link>
     </div>
     <div className="footer-address">
@@ -38,4 +38,4 @@ const LeonisFooter = (() => {
   </div>)
 })
 
-export default LeonisFooter;
+export default CompanyFooter;

@@ -1,8 +1,8 @@
 import React from 'react';
-import LeonisFooter from './LeonisFooter';
+import CompanyFooter from './CompanyFooter';
 
 const Footer = () => (<div>
-  <LeonisFooter />
+  <CompanyFooter />
 </div>)
 
 export default Footer;
